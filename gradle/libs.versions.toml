@@ -1,6 +1,6 @@
 [versions]
 accompanistSystemuicontroller = "0.36.0"
-agp = "8.13.2"
+agp = "9.3.1"
 apksig = "8.12.0"
 commonsNet = "3.12.0"
 desugar_jdk_libs = "2.1.5"
@@ -30,7 +30,7 @@ junit = "1.3.0"
 espressoCore = "3.7.0"
 uiautomator = "2.3.0"
 benchmarkMacroJunit4 = "1.4.0"
-baselineprofile = "1.4.0"
+baselineprofile = "1.5.0-beta01"
 profileinstaller = "1.4.1"
 reorderable = "2.5.1"
 uiToolingPreviewAndroid = "1.9.0"
@@ -83,7 +83,6 @@ zoomable-image-coil3 = { module = "me.saket.telephoto:zoomable-image-coil3", ver
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 android-test = { id = "com.android.test", version.ref = "agp" }
 baselineprofile = { id = "androidx.baselineprofile", version.ref = "baselineprofile" }
