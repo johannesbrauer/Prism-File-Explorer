@@ -71,7 +71,6 @@ kotlin {
 }
 
 dependencies {
-    implementation(libs.androidx.material3)
     "baselineProfile"(project(":baselineprofile"))
     implementation(libs.androidx.profileinstaller)
     coreLibraryDesugaring(libs.desugar.jdk.libs)
